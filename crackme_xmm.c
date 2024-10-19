@@ -5,7 +5,7 @@ int main () {
 double password=15.95458977019100329811178809273454654654654654654654654654;
 double input;
 
- fprintf (stdout, "password : ");
+ fprintf (stdout, "Password : ");
  scanf ("%lf", &input);
  
 	if (input == password) {
