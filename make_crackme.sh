@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cc crackme_easy.c -o crackme_easy
-cc crackme_easy2.c -o crackme_easy2
-cc crackme_xmm.c -o crackme_xmm
-strip crackme_easy crackme_easy2 crackme_xmm 
+cc crackme_easy.c -o re_crackmes/crackme_easy
+cc crackme_easy2.c -o re_crackmes/crackme_easy2
+cc crackme_xmm.c -o re_crackmes/crackme_xmm
+strip re_crackmes/crackme_easy re_crackmes/crackme_easy2 re_crackmes/crackme_xmm 
 
